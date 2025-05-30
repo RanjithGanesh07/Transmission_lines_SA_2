@@ -59,17 +59,10 @@ A primary ground surveillance radar located at the edge of the runway (350 meter
 
 α_total = 0.09 × 350 = 31.5 dB
 
-markdown
-Copy
-Edit
 
 **Output Voltage Amplitude:**
 
 V_out = 1 × 10^(-31.5 / 20) ≈ 0.0267 V
-
-yaml
-Copy
-Edit
 
 > Only 2.67% of the original signal remains—far below the required threshold.
 
@@ -81,17 +74,11 @@ Edit
 
 v = VF × c = 0.66 × 3 × 10^8 = 1.98 × 10^8 m/s
 
-css
-Copy
-Edit
 
 **Time Delay:**
 
 t = l / v = 350 / (1.98 × 10^8) ≈ 1.77 μs
 
-yaml
-Copy
-Edit
 
 > Delay of ~1.77 μs introduces phase skewing in radar return signals.
 
@@ -105,9 +92,6 @@ Assuming the antenna output impedance is 75 Ω and the receiver is 50 Ω:
 
 Γ = (Z_L - Z_0) / (Z_L + Z_0) = (75 - 50) / (75 + 50) = 0.2
 
-markdown
-Copy
-Edit
 
 **Reflected Power:**
 
