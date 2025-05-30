@@ -97,10 +97,6 @@ Assuming the antenna output impedance is 75 Ω and the receiver is 50 Ω:
 
 |Γ|² = (0.2)² = 0.04 → 4%
 
-yaml
-Copy
-Edit
-
 > Echoes and signal distortion result in reduced radar accuracy.
 
 ---
